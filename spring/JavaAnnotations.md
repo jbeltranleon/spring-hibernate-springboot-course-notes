@@ -7,7 +7,7 @@
 
 ## Some important annotations
 
-> @PostConstruct
+### @PostConstruct
 
 * FAQ: I'm getting null for the fortunes.
 
@@ -60,3 +60,15 @@ Here's the updated code for your service. Make note of this section:
         
     }
 ```
+
+### Scope
+
+```
+	@Component
+	@Scope("prototype")
+	public class TennisCoach implements Coach {
+		...
+	}		
+```
+
+
