@@ -71,4 +71,8 @@ Here's the updated code for your service. Make note of this section:
 	}		
 ```
 
+### PreDestroy
+
+Used to use a method before the bean is destroy
+
 
